@@ -10,25 +10,25 @@ The workflow of this project goes like: cleaning raw data from multiple public s
 
 Everything is pulled from public datasets and merged on a country-code basis:
 
-* FAOSTAT – food consumption by category (kg/capita/year)
-* World Bank Open Data – GDP per capita (US$)
-* Our World in Data – life expectancy (years), obesity rates (%), and diabetes prevalence (%)
+* FAOSTAT:  food consumption by category (kg/capita/year)
+* World Bank Open Data: GDP per capita (US$)
+* Our World in Data: life expectancy (years), obesity rates (%) and diabetes prevalence (%)
 
 ## Tools used
 
 * Python (Pandas, NumPy) and Jupyter Notebook for cleaning, merging and exploratory analysis of the data
 * Tableau Public for creating the interactive dashboard
 
-## Key findings
+## Key insights
 
 A few things stood out once the data was cleaned and correlated:
 
-* Egg and milk consumption both correlate fairly strongly with life expectancy (r = 0.67 and 0.64). Countries that eat more eggs and dairy tend to live longer on average.
-* Meat consumption correlates with both life expectancy (r = 0.58) and obesity (r = 0.62), so it cuts both ways.
-* Sugar has a moderate relationship with obesity (r = 0.44) but almost none with diabetes prevalence (r = 0.08), which was surprising because sugar and diabetes are so often linked together.
-* Obesity and diabetes are moderately correlated (r ≈ 0.58), which makes sense but it's a reminder that diabetes is driven by more than diet alone.
-* GDP per capita has the strongest relationship with life expectancy (r = 0.68). This raises an interesting question the dashboard is built to explore further: how much of the "healthy diet" effect is actually just a wealth effect in disguise? 
-
+* Countries with higher GDP per capita tend to have longer life expectancy (r = 0.68), which is the strongest single pattern in the whole dataset. Wealthier countries usually have better lifestyle, healthcare, sanitation and food security, so it's hard to untangle diet from money.
+* Eggs and milk stood out the most among the food groups. Both had a strong link to life expectancy (r = 0.67 and r = 0.64). Countries that eat more of these tend to live longer, though this is likely tangled up with wealth too, since these are foods that become more affordable as income rises.
+* Meat consumption was interesting because it cuts both ways, it's linked to both higher life expectancy (r = 0.58) and higher obesity (r = 0.62). So more meat doesn't come with a clear health benefit.
+* Sugar was the most surprising. It has a moderate link to obesity (r = 0.44) but a very weak relationship with diabetes (r = 0.08). Usually sugar and diabetes are assumed to be closely tied but data shows a different story. This indicates diabetes is driven by a lot more factors than just diet.
+* Obesity and diabetes were moderately correlated with each other (r = 0.58).
+* 
 ## The dashboard
 
 Rather than just repeating the static charts from the notebook, I built a Tableau dashboard to let you explore the data yourself.
