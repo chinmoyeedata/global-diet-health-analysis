@@ -2,7 +2,7 @@
 
 ## What this project is about
 
-I wanted to explore a simple question: does what a country eats say anything about how healthy its people are? This project looks at dietary habits, like egg, milk, meat, sugar, fruit and vegetable consumption, across countries and compares them against health outcomes like life expectancy, obesity and diabetes prevalence.
+I wanted to explore a simple question: Does what a country eats say anything about how healthy its people are? This project looks at dietary habits, like egg, milk, meat, sugar, fruit and vegetable consumption, across countries and compares them against health outcomes like life expectancy, obesity and diabetes prevalence.
 
 The workflow of this project goes like: cleaning raw data from multiple public sources, merging it into a single country-level dataset, exploring it with Python and finally building an interactive Tableau dashboard so anyone can dig into the patterns themselves instead of just reading a static report.
 
@@ -29,9 +29,15 @@ A few things stood out once the data was cleaned and correlated:
 * Sugar was the most surprising. It has a moderate link to obesity (r = 0.44) but a very weak relationship with diabetes (r = 0.08). Usually sugar and diabetes are assumed to be closely tied but data shows a different story. This indicates diabetes is driven by a lot more factors than just diet.
 * Obesity and diabetes were moderately correlated with each other (r = 0.58).
 
-## The dashboard
+## Dashboard
 
-Rather than just repeating the static charts from the notebook, I built a Tableau dashboard to let you explore the data yourself.
+The interactive Tableau dashboard allows users to explore how different dietary variables relate to life expectancy, obesity and diabetes prevalence.
+In this users can:
+* compare countries
+* switch between diet variables
+* change health outcomes
+* view correlation values
+* explore global patterns through interactive maps
 
 ![Dashboard](tableau/Dashboard.png)
 
@@ -64,8 +70,7 @@ global-diet-health-analysis/
 ```
 ## Why I built this 
 
-This is my first big project built from scratch and I wanted it to be something I actually cared about. I'm a huge foodie, so I knew I wanted to do something related to food. After thinking for a while, the idea clicked: what if I looked at how dietary patterns differ from country to country and whether that connects to how healthy people actually are? Once I had that question, everything from the data collection, the cleaning, the analysis, followed by to get a proper answer.
-
+This is my first big project built from scratch and I wanted it to be something I actually cared about. I'm a huge foodie, so I knew I wanted to do something related to food. After thinking for a while, the idea clicked: What if I looked at how dietary patterns differ from country to country and whether that connects to how healthy people actually are? Once I had that question, the rest of the project naturally came together, from collecting and cleaning the data to analyzing it and finally building the interactive dashboard to uncover the answers.
 
 ## About me
 
