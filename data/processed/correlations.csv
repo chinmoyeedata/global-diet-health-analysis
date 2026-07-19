@@ -1,0 +1,22 @@
+Diet_Variable,Health_Outcome,Correlation
+Eggs (kg/capita/year),Life Expectancy (Years),0.666
+Eggs (kg/capita/year),Obesity (%),0.307
+Eggs (kg/capita/year),Diabetes Prevalence (%),0.113
+Fish & Seafood (kg/capita/year),Life Expectancy (Years),0.317
+Fish & Seafood (kg/capita/year),Obesity (%),0.186
+Fish & Seafood (kg/capita/year),Diabetes Prevalence (%),0.232
+Fruits (kg/capita/year),Life Expectancy (Years),0.262
+Fruits (kg/capita/year),Obesity (%),0.28
+Fruits (kg/capita/year),Diabetes Prevalence (%),0.138
+Meat (kg/capita/year),Life Expectancy (Years),0.576
+Meat (kg/capita/year),Obesity (%),0.623
+Meat (kg/capita/year),Diabetes Prevalence (%),0.231
+Milk (kg/capita/year),Life Expectancy (Years),0.641
+Milk (kg/capita/year),Obesity (%),0.21
+Milk (kg/capita/year),Diabetes Prevalence (%),-0.063
+Sugar (kg/capita/year),Life Expectancy (Years),0.405
+Sugar (kg/capita/year),Obesity (%),0.436
+Sugar (kg/capita/year),Diabetes Prevalence (%),0.077
+Vegetables (kg/capita/year),Life Expectancy (Years),0.473
+Vegetables (kg/capita/year),Obesity (%),0.151
+Vegetables (kg/capita/year),Diabetes Prevalence (%),0.076
