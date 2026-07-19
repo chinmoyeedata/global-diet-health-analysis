@@ -41,7 +41,8 @@ In this users can:
 
 ![Dashboard](tableau/Dashboard.png)
 
-## Explore it live [Here](https://public.tableau.com/app/profile/chinmoyee.bhuyan4922/viz/GlobalDietandHealthAnalysis/GlobalDietandHealthAnalysisDashboard)
+## Explore it live here
+https://public.tableau.com/app/profile/chinmoyee.bhuyan4922/viz/GlobalDietandHealthAnalysis/GlobalDietandHealthAnalysisDashboard
 
 ## How the project is organized
 
