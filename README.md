@@ -28,7 +28,7 @@ A few things stood out once the data was cleaned and correlated:
 * Meat consumption was interesting because it cuts both ways, it's linked to both higher life expectancy (r = 0.58) and higher obesity (r = 0.62). So more meat doesn't come with a clear health benefit.
 * Sugar was the most surprising. It has a moderate link to obesity (r = 0.44) but a very weak relationship with diabetes (r = 0.08). Usually sugar and diabetes are assumed to be closely tied but data shows a different story. This indicates diabetes is driven by a lot more factors than just diet.
 * Obesity and diabetes were moderately correlated with each other (r = 0.58).
-* 
+
 ## The dashboard
 
 Rather than just repeating the static charts from the notebook, I built a Tableau dashboard to let you explore the data yourself.
@@ -69,7 +69,7 @@ This is my first big project built from scratch and I wanted it to be something 
 
 ## About me
 
-Chinmoyee Bhuyan
+My name is Chinmoyee Bhuyan and these are the links to my:
 
 * GitHub: https://github.com/chinmoyeedata
 * LinkedIn: https://www.linkedin.com/in/chinmoyee-bhuyan/
